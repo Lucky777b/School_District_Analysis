@@ -25,6 +25,8 @@
   
 ![loc_method_NaN](https://user-images.githubusercontent.com/104864579/178060209-f9b074c3-96b3-4c39-8313-0dc67d9a8b47.png)
 
+  One function that was utilized greatly throughout my analysis, was the groupby() function. This is the function that allowed me to split an object(school_data_complete_df), apply a mathematical operation(ex. .mean(),.sum(),or .count() methods), and then combine the results. If I were to use the set_index() method to try to perform the same mathematical operations, 
+
 ## Results
 
   Upon running both analyses, removing the math and reading scores for ninth graders at Thomas High School, had little to no effect on the overall analysis. 
@@ -35,7 +37,7 @@
 
 ![new_district_summary](https://user-images.githubusercontent.com/104864579/178059581-744396ad-cde3-4899-ba95-c03919aaf633.png)
 
- By looking at the example shown above for the original vs. the updated district summary: 
+ By looking at the example shown above for the original(1st image) vs. the updated district summary(2nd image): 
 
    * "Average Math Score" went down by -0.1 points, and "Average Reading Score" stayed the same.
    * "% Passing Math" went down by -0.2%, "% Passing Reading" went down by -0.3%, and "% Overall Passing" went down by -0.1%.
@@ -48,7 +50,7 @@
 
 ![new_school_summary](https://user-images.githubusercontent.com/104864579/178059724-555a2512-66c2-4a2e-ad63-cda1afd02fda.png)
 
- By looking at the example shown above for the original vs. the updated school summary:
+ By looking at the example shown above for the original(1st image) vs. the updated school summary(2nd image):
 	
    * "Average Math Score" went down by -0.1 points, and "Average Reading Score" went up 0.05 points.
    * "% Passing Math" went down by -0.1%, "% Passing Reading" went down by -0.2%, and "% Overall Passing" went down by -0.3%.
