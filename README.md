@@ -25,7 +25,13 @@
   
 ![loc_method_NaN](https://user-images.githubusercontent.com/104864579/178060209-f9b074c3-96b3-4c39-8313-0dc67d9a8b47.png)
 
-  One function that was utilized greatly throughout my analysis, was the groupby() function. This is the function that allowed me to split an object(school_data_complete_df), apply a mathematical operation(ex. .mean(),.sum(),or .count() methods), and then combine the results. If I were to use the set_index() method to try to perform the same mathematical operations, 
+  One function that was utilized greatly throughout my analysis, was the groupby() function. This is the function that allowed me to split an object(school_data_complete_df), apply a mathematical operation(ex. .mean(),.sum(),or .count() methods), and then combine the results. If I were to use the set_index() method to try to perform the same mathematical operations, for example, to calculate the math scores, the output would return the math grade from each student in a high school, and would return every occurence of the high school as the index. Thus, using the groupby() function was necessary because it would group each high school, and provide the mean of all the scores in each high school, as opposed to each student's score from the same high school. An example of how I used the groupby() function to group each school series by the school name for the average math and reading scores is shown below. 
+  
+![groupby_scores](https://user-images.githubusercontent.com/104864579/178071889-ed42812f-178b-4375-b111-49d1670a8657.png)
+
+An example of the output from using the groupby() function is shown below. 
+
+![groupby_output](https://user-images.githubusercontent.com/104864579/178072089-94c3b004-5945-40a7-aabb-2bd6f956a59d.png)
 
 ## Results
 
@@ -69,7 +75,9 @@
 
 ![new_school_type_summary](https://user-images.githubusercontent.com/104864579/178059847-fce6a490-8340-40e9-9046-23b67e43db84.png)
 
+# Summary 
 
+  The four major changes that resulted from replacing the reading and math scores, for the 9th grade students at Thomas High School, with "NaN", were seen in the total student count, the total count of students for Thomas High School, the math and reading score averages, and the overall math and reading percentages at Thomas High School. The total number of students was initially 39,170, but when scores were replaced with "NaN, that count decreased to 38,709. Due to this decrease in population size, it makes sense why the math and reading score averages and overall percentage results changed as well. Although, the changes in the averages and percentages were so small, that it did not result in a distinct difference from the results found in the original school district analysis. 
 
 
 
