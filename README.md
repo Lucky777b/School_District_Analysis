@@ -33,6 +33,7 @@ Upon running both analyses, removing the math and reading scores for ninth grade
 
 * Effect on District Summary: 
 
+http://localhost:8888/view/School_District_Analysis/Resources/old_district_summary.png
 (pic of old & new district summary)
 
 By looking at the example shown above for the original vs. the updated district summary: 
