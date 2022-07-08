@@ -37,30 +37,23 @@ An example of the output from using the groupby() function is shown below.
 
   Upon running both analyses, removing the math and reading scores for ninth graders at Thomas High School, had little to no effect on the overall analysis. 
 
-* Effect on District Summary: 
-
 ![old_district_summary](https://user-images.githubusercontent.com/104864579/178059560-3cd90368-f677-4a97-9763-bc59454cf548.png)
 
 ![new_district_summary](https://user-images.githubusercontent.com/104864579/178059581-744396ad-cde3-4899-ba95-c03919aaf633.png)
 
- By looking at the example shown above for the original(1st image) vs. the updated district summary(2nd image): 
-
-   * "Average Math Score" went down by -0.1 points, and "Average Reading Score" stayed the same.
-   * "% Passing Math" went down by -0.2%, "% Passing Reading" went down by -0.3%, and "% Overall Passing" went down by -0.1%.
-
-* Effect on School Summary: The only effect was represented in the minute, or minimal, differences within the row for "Thomas High School", but other school data was not effected at all. 
-
-* Thomas High School Performance relative to other schools: Again, removing the scores from the 9th grade class had little to no effect on this school's performance relative to other schools. 
+* Effect on District Summary: By looking at the example shown above for the original(1st image) vs. the updated district summary(2nd image): 
+  - "Average Math Score" went down by -0.1 points, and "Average Reading Score" stayed the same.
+  - "% Passing Math" went down by -0.2%, "% Passing Reading" went down by -0.3%, and "% Overall Passing" went down by -0.1%.
 
 ![old_school_summary](https://user-images.githubusercontent.com/104864579/178059687-68650ed6-0d55-44ba-b39d-e875df44229f.png)
 
 ![new_school_summary](https://user-images.githubusercontent.com/104864579/178059724-555a2512-66c2-4a2e-ad63-cda1afd02fda.png)
 
- By looking at the example shown above for the original(1st image) vs. the updated school summary(2nd image):
-	
-   * "Average Math Score" went down by -0.1 points, and "Average Reading Score" went up 0.05 points.
-   * "% Passing Math" went down by -0.1%, "% Passing Reading" went down by -0.2%, and "% Overall Passing" went down by -0.3%.
-
+* By looking at the example shown above for the original(1st image) vs. the updated school summary(2nd image):	
+  - "Average Math Score" went down by -0.1 points, and "Average Reading Score" went up 0.05 points.
+  - "% Passing Math" went down by -0.1%, "% Passing Reading" went down by -0.2%, and "% Overall Passing" went down by -0.3%.
+* Effect on School Summary: The only effect was represented in the minute, or minimal, differences within the row for "Thomas High School", but other school data was not effected at all. 
+* Thomas High School Performance relative to other schools: Again, removing the scores from the 9th grade class had little to no effect on this school's performance relative to other schools. 
 * Replacing the math and reading scores by grade did not make a difference overall the schools.
 * Replacing the math and reading scores did not effect the scores that were separated by school size, except for the "Medium(1000-1999)" bin group when expressed as a float data type, but upon formatting, there was no difference between the two analyses.
 * Replacing the math and reading scores by school spending only made a difference in the the row "$631-645", because this was the row that Thomas High School scores were applied to based on their total budget amount. An example of the original analysis spending summary(1st image) and the updated analysis(2nd image) is shown below.
